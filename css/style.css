@@ -67,6 +67,7 @@ body main {
 body main section {
   height: 100%;
   overflow: scroll;
+  -webkit-overflow-scrolling: touch; /*ios 上增加弹性*/
 }
 
 body main .us .container{

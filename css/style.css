@@ -1,0 +1,123 @@
+a {
+  text-decoration: none;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul,
+ol {
+  list-style-type: none;
+}
+
+.item {
+  border-bottom: 1px dashed #ccc;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  font-size: 14px;
+  text-align: left;
+}
+
+.item a {
+  display: block;
+  display: flex;
+}
+
+.item .cover,
+.item .cover img {
+  width: 70px;
+}
+
+.item .detail {
+  flex: 1;
+  padding-left: 10px;
+  font-size: 12px;
+}
+
+.item .detail h2 {
+  font-size: 16px;
+  color: #369;
+  display: inline-block;
+}
+
+.item .detail h2:hover {
+  color: #fff;
+  background: #37a;
+}
+
+.item .detail .extra {
+  color: #666666;
+  margin-top: 4px;
+}
+
+.item .detail .extra .score {
+  color: #FF5722;
+}
+
+
+body main {
+  height: calc(100vh - 50px);
+  text-align: center;
+  padding: 10px;
+}
+
+body main section {
+  height: 100%;
+  overflow: scroll;
+}
+
+body main .us .container{
+  height: 1100%;
+}
+
+body main .top .container{
+}
+
+body main .search .container{
+  height: 1100%;
+}
+
+body footer {
+  border-top: 1px solid #49A36C;
+  height: 50px;
+}
+
+body footer ul {
+  display: flex;
+  flex-direction: row;
+  height: 100%;
+  justify-content: space-around;
+  align-items: center;
+}
+
+body footer ul li {
+  cursor: pointer;
+}
+
+body footer ul li.active {
+  color: #ED6237;
+}
+
+body footer ul li span {
+  display: flex;
+  justify-content: center;
+  font-size: 14px;
+}
+
+body main .loading {
+  display: none;
+  font-size: 20px;
+  animation: 1s rotate linear infinite;
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}

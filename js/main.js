@@ -181,7 +181,7 @@ Search.prototype.getData = function(keyword) {
   this.wrap.find(`.loading`).addClass('a')
   $.ajax({
     type: "get",
-    url: "http://api.douban.com/v2/movie/search",
+    url: "https://api.douban.com/v2/movie/search",
     data:{
       q: keyword
     },

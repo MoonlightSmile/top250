@@ -70,17 +70,6 @@ body main section {
   -webkit-overflow-scrolling: touch; /*ios 上增加弹性*/
 }
 
-body main .us .container{
-  height: 1100%;
-}
-
-body main .top .container{
-}
-
-body main .search .container{
-  height: 1100%;
-}
-
 body footer {
   border-top: 1px solid #49A36C;
   height: 50px;

@@ -1,7 +1,7 @@
 $("li").click(function() {
   let $index = $(this).index()
   $(this).addClass("active").siblings().removeClass("active")
-  $(`section`).eq($index).show().siblings().hide()
+  $(`section`).eq($index).fadeIn().siblings().fadeOut()
 }).eq(0).click()
 
 
@@ -10,8 +10,6 @@ function Top250(wrap) {
   this.index = 0;
   this.count = 10;
   this.loading = false;
-  console.log(this.wrap)
-
 }
 
 Top250.prototype.init = function(argument) {

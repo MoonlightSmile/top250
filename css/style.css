@@ -108,6 +108,9 @@ body footer ul li span {
   font-size: 14px;
 }
 
+body footer ul li {
+  flex-grow:1;
+}
 body main .loading {
   display: none;
   font-size: 20px;

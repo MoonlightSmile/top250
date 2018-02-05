@@ -240,6 +240,7 @@ Search.prototype.bindEvents = function() {
   this.btn.click(()=>{
     this.wrap.find(`.container`).empty()
     let key = this.wrap.find("input[type=search]").val()
+    if(key==="")return;
     this.getData(key)
   })
 
@@ -247,9 +248,9 @@ Search.prototype.bindEvents = function() {
 
 
 
-const a = new Top250(`.top`)
-const b = new Us(`.us`)
-const c = new Search(`.search`)
-c.init()
-a.init()
-b.init()
+// const a = new Top250(`.top`)
+// const b = new Us(`.us`)
+// const c = new Search(`.search`)
+// c.init()
+// a.init()
+// b.init()

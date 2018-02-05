@@ -142,10 +142,9 @@ body main .loading.a {
   font-size: 14px;
   padding: 6px 8px;
   margin-left: 10px;
+  border-radius: 5px;
 }
-.searchWrap span.btn:focus {
-  opacity: .4;
-}
+
 
 
 

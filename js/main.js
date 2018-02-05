@@ -1,4 +1,4 @@
-$("li").click(function() {
+$("ul li").click(function() {
   let $index = $(this).index()
   $(this).addClass("active").siblings().removeClass("active")
   $(`section`).eq($index).fadeIn().siblings().fadeOut()

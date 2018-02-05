@@ -95,7 +95,7 @@ body footer ul {
 }
 
 body footer ul li {
-  cursor: pointer;
+  color: #8A96A7;
 }
 
 body footer ul li.active {

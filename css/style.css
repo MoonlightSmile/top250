@@ -117,3 +117,57 @@ body main .loading.a {
     transform: rotate(360deg);
   }
 }
+
+
+
+.searchWrap {
+  display: flex;
+  justify-content: center;
+}
+
+.searchWrap input[type=search] {
+  padding: 8px;
+  background: #EEF4EE;
+  width: calc(100vw - 50px);
+  border: none;
+}
+.searchWrap input[type=search]:focus{
+  outline: none;
+}
+
+.searchWrap span.btn {
+  width: 50px;
+  background: #4E9348;
+  color: #fff;
+  font-size: 14px;
+  padding: 6px 8px;
+  margin-left: 10px;
+}
+.searchWrap span.btn:focus {
+  opacity: .4;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

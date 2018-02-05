@@ -248,9 +248,9 @@ Search.prototype.bindEvents = function() {
 
 
 
-// const a = new Top250(`.top`)
-// const b = new Us(`.us`)
-// const c = new Search(`.search`)
-// c.init()
-// a.init()
-// b.init()
+const a = new Top250(`.top`)
+const b = new Us(`.us`)
+const c = new Search(`.search`)
+c.init()
+a.init()
+b.init()

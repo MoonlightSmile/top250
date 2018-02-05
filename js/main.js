@@ -22,7 +22,7 @@ Top250.prototype.init = function(argument) {
 Top250.prototype.getData = function() {
   if (this.loading) return;
   this.loading = true
-  $(`.loading`).show()
+  $(`.loading`).addClass('a')
   $.ajax({
     type: "get",
     url: "https://api.douban.com/v2/movie/top250",
@@ -40,7 +40,7 @@ Top250.prototype.getData = function() {
     console.log("error");
   }).always(() => {
     this.loading = false
-    $(`.loading`).hide()
+    $(`.loading`).removeClass("a")
   })
 }
 Top250.prototype.createNode = function(movie) {

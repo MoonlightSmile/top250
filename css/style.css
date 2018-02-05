@@ -112,6 +112,9 @@ body main .loading {
   font-size: 20px;
   animation: 1s rotate linear infinite;
 }
+body main .loading.a {
+  display: inline-block;
+}
 
 @keyframes rotate {
   0% {

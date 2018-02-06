@@ -1,3 +1,4 @@
+const App = require("./App.js")
 class Us extends App {
   constructor(wrap) {
     super(wrap)
@@ -12,3 +13,6 @@ class Us extends App {
   }
 
 }
+
+
+module.exports = Us

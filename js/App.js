@@ -1,3 +1,5 @@
+const $ = require("jquery")
+
 class App {
   constructor(wrap) {
     this.wrap = $(wrap)
@@ -60,3 +62,4 @@ class App {
     })
   }
 }
+module.exports = App

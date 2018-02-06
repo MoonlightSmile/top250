@@ -1,3 +1,4 @@
+const App = require("./App.js")
 class Search extends App {
   constructor(wrap) {
     super(wrap)
@@ -22,3 +23,6 @@ class Search extends App {
 
   }
 }
+
+
+module.exports = Search

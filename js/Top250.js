@@ -1,3 +1,6 @@
+const App = require("./App.js")
+const $ = require("jquery")
+
 class Top250 extends App {
   constructor(wrap) {
     super(wrap);
@@ -55,3 +58,7 @@ class Top250 extends App {
 
   };
 }
+
+
+
+module.exports = Top250

@@ -1,0 +1,12 @@
+{
+  "name": "top250",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:MoonlightSmile/top250.git",
+  "author": "moonlight <362652565@qq.com>",
+  "license": "MIT",
+  "dependencies": {
+    "gh-pages": "^1.1.0",
+    "jquery": "^3.3.1"
+  }
+}

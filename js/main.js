@@ -8,7 +8,6 @@ $("ul li").click(function() {
 
 var a = new Top250(`.top`)
 var c = new Us(`.us`)
-
 var b = new Search(`.search`)
 b.init()
 a.init()

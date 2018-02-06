@@ -42,4 +42,21 @@ class App {
     })
     return $node
   }
+
+  getData(url, callBack, data) {
+
+    this.wrap.find(`.loading`).addClass('a')
+    $.ajax({
+      type: "get",
+      url: url,
+      data : data||'',
+      dataType: "jsonp"
+    }).done((json) => {
+      callBack && callBack(json)
+    }).fail(() => {
+      console.log("error");
+    }).always(() => {
+      this.wrap.find(`.loading`).removeClass("a")
+    })
+  }
 }
